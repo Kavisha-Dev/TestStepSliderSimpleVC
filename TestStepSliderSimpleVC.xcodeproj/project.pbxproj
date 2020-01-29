@@ -13,9 +13,11 @@
 		7533110023E1B79500DFF7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753310FE23E1B79500DFF7F2 /* Main.storyboard */; };
 		7533110223E1B79700DFF7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7533110123E1B79700DFF7F2 /* Assets.xcassets */; };
 		7533110523E1B79700DFF7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7533110323E1B79700DFF7F2 /* LaunchScreen.storyboard */; };
+		F6E25D5AF5A1C69DCB7EE3F2 /* Pods_TestStepSliderSimpleVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8C40F2813A6DBE3E748B31 /* Pods_TestStepSliderSimpleVC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65F8B836710BD60FB64252BE /* Pods-TestStepSliderSimpleVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestStepSliderSimpleVC.release.xcconfig"; path = "Target Support Files/Pods-TestStepSliderSimpleVC/Pods-TestStepSliderSimpleVC.release.xcconfig"; sourceTree = "<group>"; };
 		753310F523E1B79500DFF7F2 /* TestStepSliderSimpleVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestStepSliderSimpleVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753310F823E1B79500DFF7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		753310FA23E1B79500DFF7F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		7533110123E1B79700DFF7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7533110423E1B79700DFF7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7533110623E1B79700DFF7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8C40F2813A6DBE3E748B31 /* Pods_TestStepSliderSimpleVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestStepSliderSimpleVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		998376E88B25CB1EAF4A91E8 /* Pods-TestStepSliderSimpleVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestStepSliderSimpleVC.debug.xcconfig"; path = "Target Support Files/Pods-TestStepSliderSimpleVC/Pods-TestStepSliderSimpleVC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E25D5AF5A1C69DCB7EE3F2 /* Pods_TestStepSliderSimpleVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D8C1924F8A6E7313BD9F64E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				998376E88B25CB1EAF4A91E8 /* Pods-TestStepSliderSimpleVC.debug.xcconfig */,
+				65F8B836710BD60FB64252BE /* Pods-TestStepSliderSimpleVC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		753310EC23E1B79500DFF7F2 = {
 			isa = PBXGroup;
 			children = (
 				753310F723E1B79500DFF7F2 /* TestStepSliderSimpleVC */,
 				753310F623E1B79500DFF7F2 /* Products */,
+				4D8C1924F8A6E7313BD9F64E /* Pods */,
+				DD046C86B78DABA81743D05C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = TestStepSliderSimpleVC;
 			sourceTree = "<group>";
 		};
+		DD046C86B78DABA81743D05C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8C40F2813A6DBE3E748B31 /* Pods_TestStepSliderSimpleVC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7533110923E1B79700DFF7F2 /* Build configuration list for PBXNativeTarget "TestStepSliderSimpleVC" */;
 			buildPhases = (
+				34DD1C6EF280639542CC4F04 /* [CP] Check Pods Manifest.lock */,
 				753310F123E1B79500DFF7F2 /* Sources */,
 				753310F223E1B79500DFF7F2 /* Frameworks */,
 				753310F323E1B79500DFF7F2 /* Resources */,
+				8E68D29E6E1CFFD817042749 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34DD1C6EF280639542CC4F04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestStepSliderSimpleVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E68D29E6E1CFFD817042749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestStepSliderSimpleVC/Pods-TestStepSliderSimpleVC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestStepSliderSimpleVC/Pods-TestStepSliderSimpleVC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestStepSliderSimpleVC/Pods-TestStepSliderSimpleVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		753310F123E1B79500DFF7F2 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		7533110A23E1B79700DFF7F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998376E88B25CB1EAF4A91E8 /* Pods-TestStepSliderSimpleVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		7533110B23E1B79700DFF7F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F8B836710BD60FB64252BE /* Pods-TestStepSliderSimpleVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

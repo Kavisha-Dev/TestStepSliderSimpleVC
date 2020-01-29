@@ -1,0 +1,6 @@
+framework module Pods_TestStepSliderSimpleVC {
+  umbrella header "Pods-TestStepSliderSimpleVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
