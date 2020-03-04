@@ -1,16 +1,16 @@
 PODS:
-  - StepSlider (1.3.0)
+  - StepSlider (1.6.0)
 
 DEPENDENCIES:
-  - StepSlider (~> 1.3.0)
+  - StepSlider (~> 1.6.0)
 
 SPEC REPOS:
   trunk:
     - StepSlider
 
 SPEC CHECKSUMS:
-  StepSlider: c54e471186f29c6535260c9866178a3900f787e9
+  StepSlider: 5cb091bccd3fb8d5ace8a6c3a59b0c0a812138a9
 
-PODFILE CHECKSUM: 3274fd47c84836c3f1c5c0cb6984da5fdbedc255
+PODFILE CHECKSUM: 11c150423e5fb4a1c7a9fe666e3d10e06bb274d7
 
 COCOAPODS: 1.8.4

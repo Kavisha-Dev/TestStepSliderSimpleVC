@@ -59,7 +59,7 @@
         <!--View Controller-->
         <scene sceneID="EvT-UK-WgD">
             <objects>
-                <viewController id="nFR-Vc-J0c" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="pageSheet" id="nFR-Vc-J0c" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5GB-Id-VRI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,6 +91,7 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
                                         <color key="value" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="enableHapticFeedback" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>

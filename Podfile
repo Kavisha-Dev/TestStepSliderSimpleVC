@@ -6,6 +6,6 @@ target 'TestStepSliderSimpleVC' do
   use_frameworks!
 
   # Pods for TestStepSliderSimpleVC
-  pod 'StepSlider', '~> 1.3.0'
+  pod 'StepSlider', '~> 1.6.0'
 
 end
